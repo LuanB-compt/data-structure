@@ -275,7 +275,7 @@ class Tree:
         else:
             
             if node==-1:
-                node = tree.root
+                node = self.root
             
             if node.data is not None:
                 
@@ -304,7 +304,7 @@ class Tree:
         else:
             
             if node==-1:
-                node = tree.root
+                node = self.root
             
             if node.data is not None:
                 
@@ -336,7 +336,7 @@ class Tree:
         else:
             
             if node==-1:
-                node = tree.root
+                node = self.root
             
             if node.data is not None:
                               
